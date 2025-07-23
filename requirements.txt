@@ -1,4 +1,4 @@
-# FastAPI and web server requirements
+f# FastAPI and web server requirements
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 python-multipart==0.0.6
@@ -12,7 +12,7 @@ passlib[bcrypt]==1.7.4
 # Database (adjust based on your database choice)
 sqlalchemy==2.0.23
 alembic==1.12.1
-sqlite3  # Built into Python, no need to install
+
 
 # ML and AI libraries (adjust based on your model requirements)
 torch==2.1.0
