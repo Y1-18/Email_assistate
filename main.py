@@ -43,8 +43,11 @@ if os.path.exists(static_dir):
 app.include_router(email_router, prefix="/generate_email", tags=["Email Assistant"])
 app.include_router(log_router, prefix="/logs", tags=["Email Logs"])
 
+
 # --------- Model Placeholder (replace later) ----------
 class ModelRequest(BaseModel):
+    model_config = {'protected_namespaces': ()}  # Fixes the pydantic warning
+    
     input_data: Dict[str, Any]
     model_params: Optional[Dict[str, Any]] = None
 
