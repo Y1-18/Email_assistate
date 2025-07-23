@@ -15,7 +15,7 @@ alembic==1.12.1
 
 
 # ML and AI libraries (adjust based on your model requirements)
-torch==2.1.0
+torch==2.7.1
 torchvision==0.16.0
 pytorch-lightning==2.1.0
 transformers==4.35.0
