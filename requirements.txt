@@ -13,10 +13,10 @@ passlib[bcrypt]==1.7.4
 sqlalchemy==2.0.23
 alembic==1.12.1
 
-# ML / AI (safe, compatible versions)
-torch==2.0.1
-torchvision==0.15.2
-pytorch-lightning==2.0.9
+# ML / AI (Render-compatible versions)
+torch==2.7.1
+torchvision==0.22.1
+pytorch-lightning==2.2.4
 transformers==4.35.0
 numpy==1.24.3
 pandas==2.0.3
